@@ -6,6 +6,13 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
   <artifactId>pms-app-im</artifactId>
-  <name>Personal management system of infomation management</name>
-  <description>个人管理系统之信息管理</description>
+  <packaging>pom</packaging>
+  <description>个人管理系统的信息收集模块</description>
+  <modules>
+  	<module>pms-app-im-model</module>
+  	<module>pms-app-im-dao</module>
+  	<module>pms-app-im-service</module>
+  	<module>pms-app-im-api</module>
+  	<module>pms-app-im-common</module>
+  </modules>
 </project>

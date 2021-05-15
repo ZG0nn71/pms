@@ -19,6 +19,7 @@
   	<module>pms-app-tm</module>
   	<module>pms-app-gen</module>
   	<module>pms-app-rest</module>
+  	<module>pms-app-common</module>
   </modules>
   
 </project>

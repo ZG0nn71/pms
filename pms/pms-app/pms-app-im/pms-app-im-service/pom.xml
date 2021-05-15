@@ -2,10 +2,8 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>priv.yzwbblan</groupId>
-    <artifactId>pms-app</artifactId>
+    <artifactId>pms-app-im</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
-  <artifactId>pms-app-tm</artifactId>
-  <name>Personal management system of time management</name>
-  <description>个人管理系统之时间管理</description>
+  <artifactId>pms-app-im-service</artifactId>
 </project>

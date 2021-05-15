@@ -57,6 +57,11 @@
 				<artifactId>pms-core</artifactId>
 				<version>${pms.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>priv.yzwbblan</groupId>
+				<artifactId>pms-common</artifactId>
+				<version>${pms.version}</version>
+			</dependency>
 
 			<dependency>
 				<groupId>org.flowable</groupId>

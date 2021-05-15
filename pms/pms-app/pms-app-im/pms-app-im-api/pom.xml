@@ -2,14 +2,8 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>priv.yzwbblan</groupId>
-    <artifactId>pms</artifactId>
+    <artifactId>pms-app-im</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
-  <artifactId>pms-module</artifactId>
-  <packaging>pom</packaging>
-  <description>个人管理系统组件模块</description>
-  <modules>
-  	<module>pms-core</module>
-  	<module>pms-common</module>
-  </modules>
+  <artifactId>pms-app-im-api</artifactId>
 </project>
