@@ -1,14 +1,19 @@
 package priv.yzwbblan.pms.app.im.model;
 
 import java.io.File;
+import java.io.Serializable;
 import java.util.Date;
+
+import com.baomidou.mybatisplus.activerecord.Model;
 
 /**
  * 信息详情
  * @author yzw
  *
  */
-public class InfoDetails {
+public class InfoDetails extends Model<InfoDetails> {
+	
+	private static final long serialVersionUID = 524066266556002822L;
 
 	private Long id;
 	
@@ -34,5 +39,10 @@ public class InfoDetails {
 	
 	public File getFile() {
 		return null;
+	}
+
+	@Override
+	protected Serializable pkVal() {
+		return id;
 	}
 }

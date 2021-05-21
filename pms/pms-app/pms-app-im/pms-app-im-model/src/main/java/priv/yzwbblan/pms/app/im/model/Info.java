@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 import com.baomidou.mybatisplus.activerecord.Model;
+import com.baomidou.mybatisplus.annotations.Version;
 
 /**
  * 信息
@@ -17,6 +18,7 @@ public class Info extends Model<Info>  {
 	//唯一标识
 	private Long id;
 	//版本号
+	@Version
 	private Integer version;
 	//标题
 	private String title;

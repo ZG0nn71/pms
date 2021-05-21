@@ -11,8 +11,8 @@ import com.baomidou.mybatisplus.activerecord.Model;
  */
 public class InfoOrgin extends Model<InfoOrgin> {
 	
-	private static final long serialVersionUID = 1L;
-	
+	private static final long serialVersionUID = -4461838719942519744L;
+
 	private Long id;
 	
 	private String name;
