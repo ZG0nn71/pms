@@ -25,6 +25,5 @@ public class InfoOrgin extends Model<InfoOrgin> {
 	protected Serializable pkVal() {
 		return id;
 	}
-	
-	
+	  
 }

@@ -7,4 +7,12 @@
   </parent>
   <artifactId>pms-common</artifactId>
   <description>工具模块</description>
+  
+  <dependencies>
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus</artifactId>
+		</dependency>
+  </dependencies>
+  
 </project>

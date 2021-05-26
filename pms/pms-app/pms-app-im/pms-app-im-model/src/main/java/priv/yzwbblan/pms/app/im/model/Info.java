@@ -1,22 +1,20 @@
 package priv.yzwbblan.pms.app.im.model;
 
-import java.io.Serializable;
 import java.util.Date;
 
-import com.baomidou.mybatisplus.activerecord.Model;
 import com.baomidou.mybatisplus.annotations.Version;
+
+import priv.yzwbblan.pms.module.common.model.BaseModel;
 
 /**
  * 信息
  * @author yzw
  *
  */
-public class Info extends Model<Info>  {
+public class Info extends BaseModel {
 
 	private static final long serialVersionUID = 1L;
-	
-	//唯一标识
-	private Long id;
+
 	//版本号
 	@Version
 	private Integer version;
@@ -38,10 +36,5 @@ public class Info extends Model<Info>  {
 	private Boolean enableFlag;
 	//删除标识
 	private Boolean deleteFlag;
-	
-	@Override
-	protected Serializable pkVal() {
-		return id;
-	}
 	
 }
